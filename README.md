@@ -1,27 +1,21 @@
-# BugFixNgular
+# Your goals
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
+You are supposed to fix this app. Explain your process as you work. The problems with the app should be limited to the following files: App.component.ts, App.component.scss, App.component.html, index.html, and app.module.ts. If you are uncertain with any of the asks, be sure to ask me. I used node version 12.14.1 to work on this.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Goal 1 is to get it to compile and display without crashing.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Goal 2 is to get it to match these specifications:
 
-## Build
+The header is supposed to be blue, its content should be left justified, vertically centered, and fully visible. The angular Icon should display as a button that does nothing when clicked. The text should say "Welcome Jenny" on load.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The main contents first line should be a functioning text edit with confirmation button that allows the user to change the name displayed in the header.
 
-## Running unit tests
+The main contents second line should be a counter that starts at 0 and increments when the the button is pressed.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+Goal 3 is to talk generally about how you might redesign the code To be more readable/efficient/resilient. What would be the best practices you would like to follow? 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Goal 4 is to talk about a specific new feature (you do not need to code it). The counters value is now supposed to come from an API that you poll every 30 seconds. The increment button hits a different API and sets the value based on that APIs return value. How would you approach implementing this?
